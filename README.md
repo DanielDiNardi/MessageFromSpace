@@ -61,3 +61,7 @@ All the models in this project have been made using Blender, the terrain was mod
 ![image](./Images/TerrainEnemyView.png)
 
 ## Resources
+
+- Clips and videos: https://www.rollingstone.com/movies/movie-lists/50-best-sci-fi-movies-1970s-163518/message-from-space-1978-174323/
+- Assets:
+  - Skybox: https://assetstore.unity.com/packages/2d/textures-materials/sky/earth-planets-skyboxes-53752
