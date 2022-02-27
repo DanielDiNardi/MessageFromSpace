@@ -19,7 +19,8 @@ The spaceships will demonstrate steering behaviours covered in the lectures such
 
 Source videos:
 
-
+[![youtube](https://img.youtube.com/vi/GEmGbpgRzNE/0.jpg)](https://www.youtube.com/embed/GEmGbpgRzNE)
+[![youtube](https://img.youtube.com/vi/vC4v979_fQk/0.jpg)](https://www.youtube.com/embed/vC4v979_fQk)
 
 ## Storyboard
 
@@ -28,7 +29,15 @@ Source videos:
 
 ## Models
 
-All the models in this project have been made using Blender and the terrain was modelled using Unity.
+All the models in this project have been made using Blender, the terrain was modelled using Unity, and sound effects are made using SFXR.
 
+![image](./Images/Turret.png)
+![image](./Images/AngledShip.png)
+![image](./Images/BomberMissile.png)
+![image](./Images/BomberShip.png)
+![image](./Images/Tower.png)
+![image](./Images/TerrainBomberView.png)
+![image](./Images/TerrainFighterView.png)
+![image](./Images/TerrainEnemyView.png)
 
 ## Resources
