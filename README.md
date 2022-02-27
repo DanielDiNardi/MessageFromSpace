@@ -24,8 +24,28 @@ Source videos:
 
 ## Storyboard
 
+![image](./Images/StoryBoard-1.png)
+
 ### Event Summary
 
+1. Front shot of fighters travelling through a rocky canyon.
+2. Switch to rear shot of fighters sneaking up to enemy platform.
+3. Pan shot of turrets waiting.
+4. Distant shot of fighters circling enemy and shooting turrets.
+5. Shot of alarm ringing.
+6. Switch to tower point of view.
+7. Switch to turret point of view.
+8. Switch to fighter point of view.
+9. Front shot of bombers with Earth behind them.
+10. Rear shot of bombers approaching canyon.
+11. Angled shot of bomber overlooking fight.
+12. Bomb detached.
+13. Bombs' rockets fire.
+14. Bomb and ship move away from one another.
+15. Rear view of bomb approaching enemy towers.
+16. Angled view of bomb pre-impact.
+17. Distant shot of explosion.
+18. Cut to bombers and fighters flying back to earth.
 
 ## Models
 
