@@ -132,6 +132,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 45729242}
+  - component: {fileID: 45729243}
   m_Layer: 0
   m_Name: Bomber (1)
   m_TagString: Untagged
@@ -156,6 +157,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &45729243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 45729241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 776c213be6eff5c4b830b6527f8df0a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocity: {x: 0, y: 0, z: 0}
+  currentSpeed: 0
+  acceleration: {x: 0, y: 0, z: 0}
+  force: {x: 0, y: 0, z: 0}
+  speed: 5
+  mass: 1
+  slowingDistance: 10
+  banking: 0.1
+  damping: 0.1
+  leader: {fileID: 1316488080}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!1 &58450007
 GameObject:
   m_ObjectHideFlags: 0
@@ -874,6 +898,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d94d934c6a401743bf3d1ea22f6ff83, type: 3}
+--- !u!1 &893652733 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0d94d934c6a401743bf3d1ea22f6ff83, type: 3}
+  m_PrefabInstance: {fileID: 893652732}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &893652734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 893652733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfd5d5a48438df440bfc7a127693fa97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocity: {x: 0, y: 0, z: 0}
+  currentSpeed: 0
+  acceleration: {x: 0, y: 0, z: 0}
+  force: {x: 0, y: 0, z: 0}
+  speed: 5
+  mass: 1
+  banking: 0.1
+  damping: 0.1
 --- !u!1001 &921895923
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1005,6 +1054,34 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d94d934c6a401743bf3d1ea22f6ff83, type: 3}
+--- !u!1 &926884600 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0d94d934c6a401743bf3d1ea22f6ff83, type: 3}
+  m_PrefabInstance: {fileID: 926884599}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &926884601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 926884600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 776c213be6eff5c4b830b6527f8df0a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocity: {x: 0, y: 0, z: 0}
+  currentSpeed: 0
+  acceleration: {x: 0, y: 0, z: 0}
+  force: {x: 0, y: 0, z: 0}
+  speed: 5
+  mass: 1
+  slowingDistance: 10
+  banking: 0.1
+  damping: 0.1
+  leader: {fileID: 893652734}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!1001 &935259129
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1227,6 +1304,34 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d94d934c6a401743bf3d1ea22f6ff83, type: 3}
+--- !u!1 &1076816917 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0d94d934c6a401743bf3d1ea22f6ff83, type: 3}
+  m_PrefabInstance: {fileID: 1076816916}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1076816918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1076816917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 776c213be6eff5c4b830b6527f8df0a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocity: {x: 0, y: 0, z: 0}
+  currentSpeed: 0
+  acceleration: {x: 0, y: 0, z: 0}
+  force: {x: 0, y: 0, z: 0}
+  speed: 5
+  mass: 1
+  slowingDistance: 10
+  banking: 0.1
+  damping: 0.1
+  leader: {fileID: 893652734}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!1 &1145382785
 GameObject:
   m_ObjectHideFlags: 0
@@ -1432,6 +1537,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1316488079}
+  - component: {fileID: 1316488080}
   m_Layer: 0
   m_Name: Bomber
   m_TagString: Untagged
@@ -1456,6 +1562,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1316488080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1316488078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfd5d5a48438df440bfc7a127693fa97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocity: {x: 0, y: 0, z: 0}
+  currentSpeed: 0
+  acceleration: {x: 0, y: 0, z: 0}
+  force: {x: 0, y: 0, z: 0}
+  speed: 5
+  mass: 1
+  banking: 0.1
+  damping: 0.1
 --- !u!1001 &1410532315
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2497,6 +2623,34 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d94d934c6a401743bf3d1ea22f6ff83, type: 3}
+--- !u!1 &2074260454 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0d94d934c6a401743bf3d1ea22f6ff83, type: 3}
+  m_PrefabInstance: {fileID: 2074260453}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2074260455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2074260454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 776c213be6eff5c4b830b6527f8df0a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocity: {x: 0, y: 0, z: 0}
+  currentSpeed: 0
+  acceleration: {x: 0, y: 0, z: 0}
+  force: {x: 0, y: 0, z: 0}
+  speed: 5
+  mass: 1
+  slowingDistance: 10
+  banking: 0.1
+  damping: 0.1
+  leader: {fileID: 893652734}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!1001 &2145842319
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2566,6 +2720,34 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d94d934c6a401743bf3d1ea22f6ff83, type: 3}
+--- !u!1 &2145842320 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0d94d934c6a401743bf3d1ea22f6ff83, type: 3}
+  m_PrefabInstance: {fileID: 2145842319}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2145842321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2145842320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 776c213be6eff5c4b830b6527f8df0a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocity: {x: 0, y: 0, z: 0}
+  currentSpeed: 0
+  acceleration: {x: 0, y: 0, z: 0}
+  force: {x: 0, y: 0, z: 0}
+  speed: 5
+  mass: 1
+  slowingDistance: 10
+  banking: 0.1
+  damping: 0.1
+  leader: {fileID: 893652734}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!1001 &1297340536871443345
 PrefabInstance:
   m_ObjectHideFlags: 0
