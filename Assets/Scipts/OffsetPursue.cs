@@ -14,7 +14,7 @@ public class OffsetPursue : SteeringBehaviour
     {
         offset = transform.position - leader.transform.position;
 
-        offset = Quaternion.Inverse(leader.transform.rotation) * offset;
+        offset = (Quaternion.Inverse(leader.transform.rotation) * offset) / 30;
     }
 
     // Update is called once per frame

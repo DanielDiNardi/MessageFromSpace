@@ -94,7 +94,7 @@ public class Boid : MonoBehaviour
 
         
 
-        return force;
+        return force * 2.5f;
     }
 
 

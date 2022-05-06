@@ -169,19 +169,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 776c213be6eff5c4b830b6527f8df0a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocity: {x: 0, y: 0, z: 0}
-  currentSpeed: 0
-  acceleration: {x: 0, y: 0, z: 0}
-  force: {x: 0, y: 0, z: 0}
-  speed: 5
-  mass: 1
-  slowingDistance: 10
-  banking: 0.1
-  damping: 0.1
-  leader: {fileID: 1316488080}
-  offset: {x: 0, y: 0, z: 0}
-  globalTargetPosition: {x: 0, y: 0, z: 0}
-  targetPosition: {x: 0, y: 0, z: 0}
 --- !u!1 &58450007
 GameObject:
   m_ObjectHideFlags: 0
@@ -949,7 +936,7 @@ MonoBehaviour:
   damping: 0.01
   banking: 0.05
   maxSpeed: 500
-  maxForce: 15
+  maxForce: 10
 --- !u!114 &893652739
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1165,9 +1152,9 @@ MonoBehaviour:
   velocity: {x: 0, y: 0, z: 0}
   mass: 1
   damping: 0.01
-  banking: 0.1
+  banking: 0.05
   maxSpeed: 500
-  maxForce: 15
+  maxForce: 10
 --- !u!114 &926884604
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1185,6 +1172,31 @@ MonoBehaviour:
   boid: {fileID: 0}
   leader: {fileID: 893652736}
   offset: {x: 0, y: 0, z: 0}
+--- !u!114 &926884606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 926884600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6ea1db90c59dd24e9a7eaf9e5ba8f95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weight: 5
+  force: {x: 0, y: 0, z: 0}
+  boid: {fileID: 0}
+  scale: 4
+  forwardFeelerDepth: 200
+  sideFeelerDepth: 200
+  frontFeelerUpdatesPerSecond: 200
+  sideFeelerUpdatesPerSecond: 200
+  feelerRadius: 200
+  forceType: 0
+  mask:
+    serializedVersion: 2
+    m_Bits: 119
 --- !u!1001 &935259129
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1449,9 +1461,9 @@ MonoBehaviour:
   velocity: {x: 0, y: 0, z: 0}
   mass: 1
   damping: 0.01
-  banking: 0.1
+  banking: 0.05
   maxSpeed: 500
-  maxForce: 15
+  maxForce: 10
 --- !u!114 &1076816921
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1469,6 +1481,31 @@ MonoBehaviour:
   boid: {fileID: 0}
   leader: {fileID: 893652736}
   offset: {x: 0, y: 0, z: 0}
+--- !u!114 &1076816923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1076816917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6ea1db90c59dd24e9a7eaf9e5ba8f95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weight: 5
+  force: {x: 0, y: 0, z: 0}
+  boid: {fileID: 0}
+  scale: 4
+  forwardFeelerDepth: 200
+  sideFeelerDepth: 200
+  frontFeelerUpdatesPerSecond: 200
+  sideFeelerUpdatesPerSecond: 200
+  feelerRadius: 200
+  forceType: 0
+  mask:
+    serializedVersion: 2
+    m_Bits: 119
 --- !u!1 &1145382785
 GameObject:
   m_ObjectHideFlags: 0
@@ -1711,14 +1748,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfd5d5a48438df440bfc7a127693fa97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocity: {x: 0, y: 0, z: 0}
-  currentSpeed: 0
-  acceleration: {x: 0, y: 0, z: 0}
-  force: {x: 0, y: 0, z: 0}
-  speed: 5
-  mass: 1
-  banking: 0.1
-  damping: 0.1
 --- !u!1001 &1410532315
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2802,9 +2831,9 @@ MonoBehaviour:
   velocity: {x: 0, y: 0, z: 0}
   mass: 1
   damping: 0.01
-  banking: 0.1
+  banking: 0.05
   maxSpeed: 500
-  maxForce: 15
+  maxForce: 10
 --- !u!114 &2074260458
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2822,6 +2851,31 @@ MonoBehaviour:
   boid: {fileID: 0}
   leader: {fileID: 893652736}
   offset: {x: 0, y: 0, z: 0}
+--- !u!114 &2074260460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2074260454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6ea1db90c59dd24e9a7eaf9e5ba8f95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weight: 5
+  force: {x: 0, y: 0, z: 0}
+  boid: {fileID: 0}
+  scale: 4
+  forwardFeelerDepth: 200
+  sideFeelerDepth: 200
+  frontFeelerUpdatesPerSecond: 200
+  sideFeelerUpdatesPerSecond: 200
+  feelerRadius: 200
+  forceType: 0
+  mask:
+    serializedVersion: 2
+    m_Bits: 119
 --- !u!1001 &2145842319
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2933,9 +2987,9 @@ MonoBehaviour:
   velocity: {x: 0, y: 0, z: 0}
   mass: 1
   damping: 0.01
-  banking: 0.1
+  banking: 0.05
   maxSpeed: 500
-  maxForce: 15
+  maxForce: 10
 --- !u!114 &2145842324
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2953,6 +3007,31 @@ MonoBehaviour:
   boid: {fileID: 0}
   leader: {fileID: 893652736}
   offset: {x: 0, y: 0, z: 0}
+--- !u!114 &2145842326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2145842320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6ea1db90c59dd24e9a7eaf9e5ba8f95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weight: 5
+  force: {x: 0, y: 0, z: 0}
+  boid: {fileID: 0}
+  scale: 4
+  forwardFeelerDepth: 200
+  sideFeelerDepth: 200
+  frontFeelerUpdatesPerSecond: 200
+  sideFeelerUpdatesPerSecond: 200
+  feelerRadius: 200
+  forceType: 0
+  mask:
+    serializedVersion: 2
+    m_Bits: 119
 --- !u!1001 &1297340536871443345
 PrefabInstance:
   m_ObjectHideFlags: 0
