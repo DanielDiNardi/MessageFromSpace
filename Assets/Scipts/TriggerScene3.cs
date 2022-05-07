@@ -7,6 +7,6 @@ public class TriggerScene3 : MonoBehaviour
 {
     void OnTriggerEnter(Collider collider){
         Debug.Log("Switch to scene 3");
-        // SceneManager.LoadScene(sceneName: "3-PanTurrets");
+        SceneManager.LoadScene(sceneName: "3-EnemySpotted");
     }
 }

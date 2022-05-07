@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/2-OutOfTheValley.unity
     guid: 01bf031b712faf24c8ee5f9ded150175
+  - enabled: 1
+    path: Assets/Scenes/3-EnemySpotted.unity
+    guid: 4debd232143d38c478d8dc939d932f07
   m_configObjects: {}
