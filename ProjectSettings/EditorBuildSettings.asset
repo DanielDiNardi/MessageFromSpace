@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/3-EnemySpotted.unity
     guid: 4debd232143d38c478d8dc939d932f07
+  - enabled: 1
+    path: Assets/Scenes/4-TurretCloseUp.unity
+    guid: f01e0b7b7e6468340b27ab344f8bd377
   m_configObjects: {}
