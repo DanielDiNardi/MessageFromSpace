@@ -30,7 +30,7 @@ public class ObstacleAvoidance : SteeringBehaviour
 
     public void Start()
     {
-        weight = 2.5f;
+        // weight = 2.5f;
     }
 
     public void OnEnable()

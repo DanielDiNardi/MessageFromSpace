@@ -259,7 +259,7 @@ GameObject:
   - component: {fileID: 108307255}
   - component: {fileID: 108307254}
   - component: {fileID: 108307253}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -357,7 +357,7 @@ GameObject:
   - component: {fileID: 178964073}
   - component: {fileID: 178964072}
   - component: {fileID: 178964071}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -735,7 +735,7 @@ GameObject:
   - component: {fileID: 1145382789}
   - component: {fileID: 1145382788}
   - component: {fileID: 1145382787}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -927,7 +927,7 @@ GameObject:
   - component: {fileID: 1252993325}
   - component: {fileID: 1252993324}
   - component: {fileID: 1252993323}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1173,7 +1173,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1424687594}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tower (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1211,7 +1211,7 @@ GameObject:
   - component: {fileID: 1469762504}
   - component: {fileID: 1469762503}
   - component: {fileID: 1469762502}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1469,7 +1469,7 @@ GameObject:
   - component: {fileID: 1542618267}
   - component: {fileID: 1542618266}
   - component: {fileID: 1542618265}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1564,7 +1564,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1622834474}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tower (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1602,7 +1602,7 @@ GameObject:
   - component: {fileID: 1740545088}
   - component: {fileID: 1740545087}
   - component: {fileID: 1740545086}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1700,7 +1700,7 @@ GameObject:
   - component: {fileID: 2007320857}
   - component: {fileID: 2007320856}
   - component: {fileID: 2007320855}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2204,27 +2204,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 543450652091318057}
-  - component: {fileID: 919132147550987668}
   m_Layer: 0
   m_Name: Turret (1)
-  m_TagString: Untagged
+  m_TagString: Turret
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &919132147550987668
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 919132147550987667}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b87cc98604a3d84e8cba918f3b76b38, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 0}
 --- !u!1 &919132147772605436
 GameObject:
   m_ObjectHideFlags: 0
@@ -2234,27 +2220,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 543450651759253830}
-  - component: {fileID: 919132147772605437}
   m_Layer: 0
   m_Name: Turret (5)
-  m_TagString: Untagged
+  m_TagString: Turret
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &919132147772605437
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 919132147772605436}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b87cc98604a3d84e8cba918f3b76b38, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 0}
 --- !u!1 &919132147795679218
 GameObject:
   m_ObjectHideFlags: 0
@@ -2264,27 +2236,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 543450651736182088}
-  - component: {fileID: 919132147795679219}
   m_Layer: 0
   m_Name: Turret (7)
-  m_TagString: Untagged
+  m_TagString: Turret
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &919132147795679219
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 919132147795679218}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b87cc98604a3d84e8cba918f3b76b38, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 0}
 --- !u!1 &919132147982922988
 GameObject:
   m_ObjectHideFlags: 0
@@ -2294,27 +2252,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 543450651650797142}
-  - component: {fileID: 919132147982922989}
   m_Layer: 0
   m_Name: Turret (2)
-  m_TagString: Untagged
+  m_TagString: Turret
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &919132147982922989
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 919132147982922988}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b87cc98604a3d84e8cba918f3b76b38, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 0}
 --- !u!1 &919132148637635848
 GameObject:
   m_ObjectHideFlags: 0
@@ -2324,27 +2268,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 543450653175861170}
-  - component: {fileID: 919132148637635849}
   m_Layer: 0
   m_Name: Turret
-  m_TagString: Untagged
+  m_TagString: Turret
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &919132148637635849
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 919132148637635848}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b87cc98604a3d84e8cba918f3b76b38, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 0}
 --- !u!1 &919132148751100430
 GameObject:
   m_ObjectHideFlags: 0
@@ -2354,27 +2284,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 543450652936974516}
-  - component: {fileID: 919132148751100431}
   m_Layer: 0
   m_Name: Turret (3)
-  m_TagString: Untagged
+  m_TagString: Turret
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &919132148751100431
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 919132148751100430}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b87cc98604a3d84e8cba918f3b76b38, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 0}
 --- !u!1 &919132148817129800
 GameObject:
   m_ObjectHideFlags: 0
@@ -2384,27 +2300,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 543450653005097970}
-  - component: {fileID: 919132148817129801}
   m_Layer: 0
   m_Name: Turret (6)
-  m_TagString: Untagged
+  m_TagString: Turret
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &919132148817129801
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 919132148817129800}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b87cc98604a3d84e8cba918f3b76b38, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 0}
 --- !u!1 &919132148881151656
 GameObject:
   m_ObjectHideFlags: 0
@@ -2414,27 +2316,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 543450652798585874}
-  - component: {fileID: 919132148881151657}
   m_Layer: 0
   m_Name: Turret (4)
-  m_TagString: Untagged
+  m_TagString: Turret
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &919132148881151657
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 919132148881151656}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b87cc98604a3d84e8cba918f3b76b38, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 0}
 --- !u!1 &950752799021365047
 GameObject:
   m_ObjectHideFlags: 0
@@ -2812,9 +2700,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3933950695758254325, guid: c2cafc345695ce947b5fa6b9f085e8cf, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5834091207725198864, guid: c2cafc345695ce947b5fa6b9f085e8cf, type: 3}
       propertyPath: m_Name
       value: Tower
+      objectReference: {fileID: 0}
+    - target: {fileID: 5834091207725198864, guid: c2cafc345695ce947b5fa6b9f085e8cf, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7404677511648105643, guid: c2cafc345695ce947b5fa6b9f085e8cf, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7806503920214521408, guid: c2cafc345695ce947b5fa6b9f085e8cf, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8944329478314777416, guid: c2cafc345695ce947b5fa6b9f085e8cf, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c2cafc345695ce947b5fa6b9f085e8cf, type: 3}
@@ -3050,7 +2958,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2261336861639302207}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1906, y: 998, z: 2664}
+  m_LocalPosition: {x: 1438, y: 998, z: 2223}
   m_LocalScale: {x: 25, y: 25, z: 25}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3071,10 +2979,11 @@ GameObject:
   m_Component:
   - component: {fileID: 2298164980209169215}
   - component: {fileID: 2298164980209169218}
-  - component: {fileID: 2298164980209169221}
   - component: {fileID: 2298164980209169216}
   - component: {fileID: 2298164980209169220}
   - component: {fileID: 2298164980209169219}
+  - component: {fileID: 2298164980209169222}
+  - component: {fileID: 2298164980209169221}
   m_Layer: 7
   m_Name: AngledShips (2)
   m_TagString: Untagged
@@ -3352,10 +3261,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1453028021952939653}
   - component: {fileID: 2261336861639302210}
-  - component: {fileID: 2261336861639302213}
   - component: {fileID: 2261336861639302208}
   - component: {fileID: 2261336861639302212}
   - component: {fileID: 2261336861639302211}
+  - component: {fileID: 2261336861639302214}
+  - component: {fileID: 2261336861639302213}
   m_Layer: 7
   m_Name: AngledShips (4)
   m_TagString: Untagged
@@ -3375,16 +3285,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6ea1db90c59dd24e9a7eaf9e5ba8f95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weight: 5
+  weight: 10
   force: {x: 0, y: 0, z: 0}
   boid: {fileID: 0}
   scale: 4
-  forwardFeelerDepth: 200
-  sideFeelerDepth: 200
-  frontFeelerUpdatesPerSecond: 200
-  sideFeelerUpdatesPerSecond: 200
-  feelerRadius: 200
-  forceType: 0
+  forwardFeelerDepth: 100
+  sideFeelerDepth: 100
+  frontFeelerUpdatesPerSecond: 100
+  sideFeelerUpdatesPerSecond: 100
+  feelerRadius: 100
+  forceType: 2
   mask:
     serializedVersion: 2
     m_Bits: 2147483647
@@ -3407,7 +3317,7 @@ MonoBehaviour:
   damping: 0.01
   banking: 0
   maxSpeed: 150
-  maxForce: 20
+  maxForce: 200
 --- !u!114 &2261336861639302211
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3417,18 +3327,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 2261336861639302207}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc5711988198fdf41b6cd3f1ca0645a5, type: 3}
+  m_Script: {fileID: 11500000, guid: 9c87c0da626aa0f4496951bab5fe26d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   weight: 1
   force: {x: 0, y: 0, z: 0}
   boid: {fileID: 0}
-  frequency: 0.1
-  radius: 10
-  theta: 0
-  amplitude: 80
-  distance: 5
-  axis: 1
+  targetGameObject: {fileID: 0}
+  target: {x: 0, y: 0, z: 0}
 --- !u!114 &2261336861639302212
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3438,18 +3344,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 2261336861639302207}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc5711988198fdf41b6cd3f1ca0645a5, type: 3}
+  m_Script: {fileID: 11500000, guid: 0788b2bf339bf334ab817cb06ff21a1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   weight: 1
   force: {x: 0, y: 0, z: 0}
   boid: {fileID: 0}
-  frequency: 0.1
-  radius: 10
-  theta: 0
-  amplitude: 80
-  distance: 5
-  axis: 0
+  targetGameObject: {fileID: 0}
+  target: {x: 0, y: 0, z: 0}
 --- !u!114 &2261336861639302213
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3459,14 +3361,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 2261336861639302207}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03470835f2bc1994abed7b9fbce63d4e, type: 3}
+  m_Script: {fileID: 11500000, guid: 28e55320e1e622b49936c5f457605e84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weight: 1
-  force: {x: 0, y: 0, z: 0}
-  boid: {fileID: 0}
-  radius: 500
-  center: {x: 0, y: 0, z: 0}
+  targetTurret: {fileID: 0}
+--- !u!114 &2261336861639302214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2261336861639302207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 738b21a0fe1e39041a49aa048ad571a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  updatesPerSecond: 1
 --- !u!4 &2298164980209169215
 Transform:
   m_ObjectHideFlags: 0
@@ -3475,7 +3386,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1490524844984134021}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1129, y: 998, z: 2800}
+  m_LocalPosition: {x: 661, y: 998, z: 2359}
   m_LocalScale: {x: 25, y: 25, z: 25}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3498,16 +3409,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6ea1db90c59dd24e9a7eaf9e5ba8f95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weight: 5
+  weight: 10
   force: {x: 0, y: 0, z: 0}
   boid: {fileID: 0}
   scale: 4
-  forwardFeelerDepth: 200
-  sideFeelerDepth: 200
-  frontFeelerUpdatesPerSecond: 200
-  sideFeelerUpdatesPerSecond: 200
-  feelerRadius: 200
-  forceType: 0
+  forwardFeelerDepth: 100
+  sideFeelerDepth: 100
+  frontFeelerUpdatesPerSecond: 100
+  sideFeelerUpdatesPerSecond: 100
+  feelerRadius: 100
+  forceType: 2
   mask:
     serializedVersion: 2
     m_Bits: 2147483647
@@ -3530,7 +3441,7 @@ MonoBehaviour:
   damping: 0.01
   banking: 0
   maxSpeed: 150
-  maxForce: 20
+  maxForce: 200
 --- !u!114 &2298164980209169219
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3540,18 +3451,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1490524844984134021}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc5711988198fdf41b6cd3f1ca0645a5, type: 3}
+  m_Script: {fileID: 11500000, guid: 9c87c0da626aa0f4496951bab5fe26d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   weight: 1
   force: {x: 0, y: 0, z: 0}
   boid: {fileID: 0}
-  frequency: 0.1
-  radius: 10
-  theta: 0
-  amplitude: 80
-  distance: 5
-  axis: 1
+  targetGameObject: {fileID: 0}
+  target: {x: 0, y: 0, z: 0}
 --- !u!114 &2298164980209169220
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3561,18 +3468,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1490524844984134021}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc5711988198fdf41b6cd3f1ca0645a5, type: 3}
+  m_Script: {fileID: 11500000, guid: 0788b2bf339bf334ab817cb06ff21a1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   weight: 1
   force: {x: 0, y: 0, z: 0}
   boid: {fileID: 0}
-  frequency: 0.1
-  radius: 10
-  theta: 0
-  amplitude: 80
-  distance: 5
-  axis: 0
+  targetGameObject: {fileID: 0}
+  target: {x: 0, y: 0, z: 0}
 --- !u!114 &2298164980209169221
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3582,14 +3485,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 1490524844984134021}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03470835f2bc1994abed7b9fbce63d4e, type: 3}
+  m_Script: {fileID: 11500000, guid: 28e55320e1e622b49936c5f457605e84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weight: 1
-  force: {x: 0, y: 0, z: 0}
-  boid: {fileID: 0}
-  radius: 500
-  center: {x: 0, y: 0, z: 0}
+  targetTurret: {fileID: 0}
+--- !u!114 &2298164980209169222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1490524844984134021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 738b21a0fe1e39041a49aa048ad571a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  updatesPerSecond: 1
 --- !u!4 &2327063955399950917
 Transform:
   m_ObjectHideFlags: 0
@@ -4069,10 +3981,11 @@ GameObject:
   - component: {fileID: 3255198218254376248}
   - component: {fileID: 3255198218254376247}
   - component: {fileID: 3255198218254376244}
-  - component: {fileID: 3255198218254376251}
   - component: {fileID: 3255198218254376246}
   - component: {fileID: 3255198218254376250}
   - component: {fileID: 3255198218254376249}
+  - component: {fileID: 3255198218254376252}
+  - component: {fileID: 3255198218254376251}
   m_Layer: 7
   m_Name: AngledShips
   m_TagString: Untagged
@@ -4495,7 +4408,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2767208142650017673}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1521, y: 998, z: 2608}
+  m_LocalPosition: {x: 1053, y: 998, z: 2167}
   m_LocalScale: {x: 25, y: 25, z: 25}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4525,7 +4438,7 @@ MonoBehaviour:
   damping: 0.01
   banking: 0
   maxSpeed: 150
-  maxForce: 20
+  maxForce: 200
 --- !u!114 &3255198218254376246
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4538,16 +4451,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6ea1db90c59dd24e9a7eaf9e5ba8f95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weight: 5
+  weight: 10
   force: {x: 0, y: 0, z: 0}
   boid: {fileID: 0}
   scale: 4
-  forwardFeelerDepth: 200
-  sideFeelerDepth: 200
-  frontFeelerUpdatesPerSecond: 200
-  sideFeelerUpdatesPerSecond: 200
-  feelerRadius: 200
-  forceType: 0
+  forwardFeelerDepth: 100
+  sideFeelerDepth: 100
+  frontFeelerUpdatesPerSecond: 100
+  sideFeelerUpdatesPerSecond: 100
+  feelerRadius: 100
+  forceType: 2
   mask:
     serializedVersion: 2
     m_Bits: 2147483647
@@ -4589,18 +4502,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 2767208142650017673}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc5711988198fdf41b6cd3f1ca0645a5, type: 3}
+  m_Script: {fileID: 11500000, guid: 9c87c0da626aa0f4496951bab5fe26d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   weight: 1
   force: {x: 0, y: 0, z: 0}
   boid: {fileID: 0}
-  frequency: 0.1
-  radius: 10
-  theta: 0
-  amplitude: 80
-  distance: 5
-  axis: 1
+  targetGameObject: {fileID: 0}
+  target: {x: 0, y: 0, z: 0}
 --- !u!114 &3255198218254376250
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4610,18 +4519,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 2767208142650017673}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc5711988198fdf41b6cd3f1ca0645a5, type: 3}
+  m_Script: {fileID: 11500000, guid: 0788b2bf339bf334ab817cb06ff21a1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   weight: 1
   force: {x: 0, y: 0, z: 0}
   boid: {fileID: 0}
-  frequency: 0.1
-  radius: 10
-  theta: 0
-  amplitude: 80
-  distance: 5
-  axis: 0
+  targetGameObject: {fileID: 0}
+  target: {x: 0, y: 0, z: 0}
 --- !u!114 &3255198218254376251
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4631,14 +4536,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 2767208142650017673}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03470835f2bc1994abed7b9fbce63d4e, type: 3}
+  m_Script: {fileID: 11500000, guid: 28e55320e1e622b49936c5f457605e84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weight: 1
-  force: {x: 0, y: 0, z: 0}
-  boid: {fileID: 0}
-  radius: 500
-  center: {x: 0, y: 0, z: 0}
+  targetTurret: {fileID: 0}
+--- !u!114 &3255198218254376252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2767208142650017673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 738b21a0fe1e39041a49aa048ad571a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  updatesPerSecond: 1
 --- !u!23 &3388532109208982330
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5120,10 +5034,11 @@ GameObject:
   m_Component:
   - component: {fileID: 4239460233901085805}
   - component: {fileID: 4239460233901085808}
-  - component: {fileID: 4239460233901085811}
   - component: {fileID: 4239460233901085806}
   - component: {fileID: 4239460233901085810}
   - component: {fileID: 4239460233901085809}
+  - component: {fileID: 4239460233901085812}
+  - component: {fileID: 4239460233901085811}
   m_Layer: 7
   m_Name: AngledShips (3)
   m_TagString: Untagged
@@ -5437,7 +5352,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3575372341647101655}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2820, y: 998, z: 2856}
+  m_LocalPosition: {x: 2352, y: 998, z: 2415}
   m_LocalScale: {x: 25, y: 25, z: 25}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5460,16 +5375,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6ea1db90c59dd24e9a7eaf9e5ba8f95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weight: 5
+  weight: 10
   force: {x: 0, y: 0, z: 0}
   boid: {fileID: 0}
   scale: 4
-  forwardFeelerDepth: 200
-  sideFeelerDepth: 200
-  frontFeelerUpdatesPerSecond: 200
-  sideFeelerUpdatesPerSecond: 200
-  feelerRadius: 200
-  forceType: 0
+  forwardFeelerDepth: 100
+  sideFeelerDepth: 100
+  frontFeelerUpdatesPerSecond: 100
+  sideFeelerUpdatesPerSecond: 100
+  feelerRadius: 100
+  forceType: 2
   mask:
     serializedVersion: 2
     m_Bits: 2147483647
@@ -5492,7 +5407,7 @@ MonoBehaviour:
   damping: 0.01
   banking: 0
   maxSpeed: 150
-  maxForce: 20
+  maxForce: 200
 --- !u!114 &4239460233901085809
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5502,18 +5417,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 3575372341647101655}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc5711988198fdf41b6cd3f1ca0645a5, type: 3}
+  m_Script: {fileID: 11500000, guid: 9c87c0da626aa0f4496951bab5fe26d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   weight: 1
   force: {x: 0, y: 0, z: 0}
   boid: {fileID: 0}
-  frequency: 0.1
-  radius: 10
-  theta: 0
-  amplitude: 80
-  distance: 5
-  axis: 1
+  targetGameObject: {fileID: 0}
+  target: {x: 0, y: 0, z: 0}
 --- !u!114 &4239460233901085810
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5523,18 +5434,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 3575372341647101655}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc5711988198fdf41b6cd3f1ca0645a5, type: 3}
+  m_Script: {fileID: 11500000, guid: 0788b2bf339bf334ab817cb06ff21a1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   weight: 1
   force: {x: 0, y: 0, z: 0}
   boid: {fileID: 0}
-  frequency: 0.1
-  radius: 10
-  theta: 0
-  amplitude: 80
-  distance: 5
-  axis: 0
+  targetGameObject: {fileID: 0}
+  target: {x: 0, y: 0, z: 0}
 --- !u!114 &4239460233901085811
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5544,14 +5451,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 3575372341647101655}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03470835f2bc1994abed7b9fbce63d4e, type: 3}
+  m_Script: {fileID: 11500000, guid: 28e55320e1e622b49936c5f457605e84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weight: 1
-  force: {x: 0, y: 0, z: 0}
-  boid: {fileID: 0}
-  radius: 500
-  center: {x: 0, y: 0, z: 0}
+  targetTurret: {fileID: 0}
+--- !u!114 &4239460233901085812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3575372341647101655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 738b21a0fe1e39041a49aa048ad571a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  updatesPerSecond: 1
 --- !u!23 &4306220549536130034
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6571,10 +6487,11 @@ GameObject:
   m_Component:
   - component: {fileID: 6545248728270699207}
   - component: {fileID: 6545248728270699210}
-  - component: {fileID: 6545248728270699213}
   - component: {fileID: 6545248728270699208}
   - component: {fileID: 6545248728270699212}
   - component: {fileID: 6545248728270699211}
+  - component: {fileID: 6545248728270699214}
+  - component: {fileID: 6545248728270699213}
   m_Layer: 7
   m_Name: AngledShips (1)
   m_TagString: Untagged
@@ -7264,7 +7181,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5881337891679281277}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2375, y: 998, z: 2629}
+  m_LocalPosition: {x: 1907, y: 998, z: 2188}
   m_LocalScale: {x: 25, y: 25, z: 25}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -7287,16 +7204,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6ea1db90c59dd24e9a7eaf9e5ba8f95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weight: 5
+  weight: 10
   force: {x: 0, y: 0, z: 0}
   boid: {fileID: 0}
   scale: 4
-  forwardFeelerDepth: 200
-  sideFeelerDepth: 200
-  frontFeelerUpdatesPerSecond: 200
-  sideFeelerUpdatesPerSecond: 200
-  feelerRadius: 200
-  forceType: 0
+  forwardFeelerDepth: 100
+  sideFeelerDepth: 100
+  frontFeelerUpdatesPerSecond: 100
+  sideFeelerUpdatesPerSecond: 100
+  feelerRadius: 100
+  forceType: 2
   mask:
     serializedVersion: 2
     m_Bits: 2147483647
@@ -7319,7 +7236,7 @@ MonoBehaviour:
   damping: 0.01
   banking: 0
   maxSpeed: 150
-  maxForce: 20
+  maxForce: 200
 --- !u!114 &6545248728270699211
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7329,18 +7246,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 5881337891679281277}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc5711988198fdf41b6cd3f1ca0645a5, type: 3}
+  m_Script: {fileID: 11500000, guid: 9c87c0da626aa0f4496951bab5fe26d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   weight: 1
   force: {x: 0, y: 0, z: 0}
   boid: {fileID: 0}
-  frequency: 0.1
-  radius: 10
-  theta: 0
-  amplitude: 80
-  distance: 5
-  axis: 1
+  targetGameObject: {fileID: 0}
+  target: {x: 0, y: 0, z: 0}
 --- !u!114 &6545248728270699212
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7350,18 +7263,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 5881337891679281277}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc5711988198fdf41b6cd3f1ca0645a5, type: 3}
+  m_Script: {fileID: 11500000, guid: 0788b2bf339bf334ab817cb06ff21a1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   weight: 1
   force: {x: 0, y: 0, z: 0}
   boid: {fileID: 0}
-  frequency: 0.1
-  radius: 10
-  theta: 0
-  amplitude: 80
-  distance: 5
-  axis: 0
+  targetGameObject: {fileID: 0}
+  target: {x: 0, y: 0, z: 0}
 --- !u!114 &6545248728270699213
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7371,14 +7280,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 5881337891679281277}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03470835f2bc1994abed7b9fbce63d4e, type: 3}
+  m_Script: {fileID: 11500000, guid: 28e55320e1e622b49936c5f457605e84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weight: 1
-  force: {x: 0, y: 0, z: 0}
-  boid: {fileID: 0}
-  radius: 500
-  center: {x: 0, y: 0, z: 0}
+  targetTurret: {fileID: 0}
+--- !u!114 &6545248728270699214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5881337891679281277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 738b21a0fe1e39041a49aa048ad571a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  updatesPerSecond: 1
 --- !u!1 &6773984982690716795
 GameObject:
   m_ObjectHideFlags: 0
