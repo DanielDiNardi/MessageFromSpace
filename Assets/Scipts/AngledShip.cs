@@ -8,6 +8,7 @@ public class AngledShip : MonoBehaviour
     Seek seek;
     Flee flee;
     public GameObject targetTurret;
+    public string stateString = "Attack";
 
     // Start is called before the first frame update
     void Start()
@@ -19,7 +20,7 @@ public class AngledShip : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     public class FindTurret : State
@@ -29,6 +30,7 @@ public class AngledShip : MonoBehaviour
 
         public override void Enter()
         {
+            owner.gameObject.GetComponent<AngledShip>().stateString = "Attack";
             owner.GetComponent<Flee>().enabled = false;
             seek = owner.GetComponent<Seek>();
             owner.GetComponent<Seek>().enabled = true;
@@ -37,7 +39,7 @@ public class AngledShip : MonoBehaviour
 
         public override void Think()
         {
-            if(Vector3.Distance(targetTurret.transform.position, owner.transform.position) < 500f)
+            if(Vector3.Distance(targetTurret.transform.position, owner.transform.position) < 700f)
             {
                 owner.GetComponent<StateMachine>().ChangeState(new FleeTurret(targetTurret.transform.position));
             }
@@ -81,6 +83,7 @@ public class AngledShip : MonoBehaviour
 
         public override void Enter()
         {
+            owner.gameObject.GetComponent<AngledShip>().stateString = "Flee";
             owner.GetComponent<Seek>().enabled = false;
             flee = owner.GetComponent<Flee>();
             owner.GetComponent<Flee>().target = turretPosition;
@@ -89,7 +92,7 @@ public class AngledShip : MonoBehaviour
 
         public override void Think()
         {
-            if(Vector3.Distance(turretPosition, owner.transform.position) > 2000f)
+            if(Vector3.Distance(turretPosition, owner.transform.position) > 1500f)
             {
                 owner.GetComponent<StateMachine>().ChangeState(new FindTurret());
             }
