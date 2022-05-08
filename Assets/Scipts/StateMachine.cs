@@ -73,7 +73,7 @@ public class StateMachine : MonoBehaviour {
         }
         currentState = newState;
         currentState.owner = this;
-        Debug.Log(currentState.GetType());
+        // Debug.Log(currentState.GetType());
         currentState.Enter();
     }
 
