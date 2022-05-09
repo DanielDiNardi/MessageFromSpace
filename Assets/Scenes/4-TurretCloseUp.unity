@@ -211,7 +211,7 @@ GameObject:
   m_Component:
   - component: {fileID: 87872441}
   - component: {fileID: 87872440}
-  - component: {fileID: 87872439}
+  - component: {fileID: 87872442}
   m_Layer: 0
   m_Name: TriggerScene5
   m_TagString: Untagged
@@ -219,18 +219,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &87872439
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 87872438}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3a5c01c12c8404c489ca41fedd4ab4c1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &87872440
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -259,6 +247,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &87872442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 87872438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bae32f948c52254785421806e2abb22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &108307251
 GameObject:
   m_ObjectHideFlags: 0
