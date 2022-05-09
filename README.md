@@ -19,7 +19,8 @@ The spaceships will demonstrate steering behaviours covered in the lectures such
 ## Video
 
 Demo Video:
-[![youtube](https://www.youtube.com/embed/f28N8w4U7oM/0.jpg)](https://www.youtube.com/embed/f28N8w4U7oM)
+
+[![youtube](https://img.youtube.com/vi/f28N8w4U7oM/0.jpg)](https://www.youtube.com/embed/f28N8w4U7oM)
 
 Source videos:
 
