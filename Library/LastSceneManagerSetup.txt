@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/5-Battle.unity
+- path: Assets/Scenes/6-BomberDetach.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
