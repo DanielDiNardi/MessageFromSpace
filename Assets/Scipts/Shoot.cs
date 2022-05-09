@@ -5,6 +5,7 @@ using UnityEngine;
 public class Shoot : MonoBehaviour
 {
     public GameObject bullet;
+    public AudioSource audioSource;
     private bool attack = true;
 
     IEnumerator PullTrigger()
@@ -14,8 +15,14 @@ public class Shoot : MonoBehaviour
         {
             yield return new WaitForSeconds(0.5f);
             Instantiate(bullet, transform.position, transform.rotation);
+            audioSource.Play();
         }
         attack = true;
+    }
+
+    private void Awake()
+    {
+        audioSource = transform.parent.GetComponent<AudioSource>();
     }
 
     void Update()
