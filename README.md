@@ -62,6 +62,93 @@ All the models in this project have been made using Blender, the terrain was mod
 ![image](./Images/TerrainFighterView.png)
 ![image](./Images/TerrainEnemyView.png)
 
+# Project Report
+
+## Most proud of
+I am most proud of the battle scene where the angled ships seek and flee from the turrets as they exchange bullets. I am also proud of what I've learned in modelling the ships in Blender and making sound effects using SFXR.
+
+## How it works
+
+### AI
+
+* The obstacle avoidance and seek steering behaviour were applied to the leading angled ship to navigate its way through the valley before seeing the enemy base.
+* Offset pursue was added to the following angled ships alongisde obstacle avoidance which caused cool flipping of the angled ships.
+* During the main battle, states were used to toggle on the seek and flee behaviour on the angled ships.
+
+### Behaviours
+
+* Seek: Adds force to the object to move it towards the target.
+* Flee: Adds force to the object to move it away from the target.
+* Obstacle Avoidance: Uses feelers to detect and avoid specific layers in the scene.
+* Offset Pursue: Follows a pre-determined point relative to the leader.
+
+### Weapons
+
+* The angled ships and turrets choose a random turret and angled ship respectively. Each time the angled ships switches between the seek and flee state, a new turret is chosen but turrets keep their original angled ship target.
+* For the bombers, they have a set tower to attack.
+* Both the angled ships and turrets instantiate bullets in front of them that travel straight from the point of instantiation and get destroyed after 5 seconds.
+* When a bomber flies into the tower, it is destroyed and instantiates an explosion particle system that turns on an audio source with the explosion sound.
+* The turrets rotate on every axis to look directly at the angled ships.
+* The angled ships initially seek a turret, diving towards them shooting, and when they get to close they turn and fly away to then dive on the turret again.
+
+### Design
+
+* There are two particle systems used in this project; the first is the propulsion effect on the bomber and the second effect is the explosion that is instantiated when the bomber crashes into the tower.
+* A new skybox is added with a picture of starts and a high resolution image of the Earth.
+* There are two types of bullets in the project; the first is a glowing neon red bullet with a neon red trail and the second is a glowing green bullet with a neon green trail.
+* A terrain was designed using the terrain modelling software available in Unity.
+
+### Audio
+
+* The music and narration was taken directly from the Message From Space trailer.
+* Shooting sound effects, rocket booster sounds and explosion sounds were all created using the SFXR software that allows you to customize sounds in video games.
+* The bullet sounds are played once every time a bullet is instantiated. The angled ship bullets and turret bullets have differing sounds.
+* The rocket booster sound starts once the scene starts and is played on loop until the next scene.
+* Finally, the explosion sound is played once when the explosion particle effect is instantiated.
+
+### Camera
+
+The camera can be found in a number of positions. The first position being attached to the leading angled ship. Next are steady shots of ships flying over them, ships detaching from the bomber body, or of the turrets rotating. Finally, a panning shot of one shot of the battle field to another while the camera is locked to a target in the middle of a fight scene.
+
+## How to Use
+
+* The project can be loaded into Unity or run on the executable file in the build.
+* The final scene will only close the software when it is run via the executable.
+* If you are running it in Unity, please stop it once the narrator stops talking in the final scene.
+
+## Classes
+| Class / Assets  | Source  |
+|---|---|
+| AngledShip.cs  | Self written  |
+| Arrive.cs  | Modified from college course  |
+| Boid.cs  | Modified from college course  |
+| Constrain.cs  | Modified from college course  |
+| FindAngledShip.cs  | Self written  |
+| Flee.cs  | Modified from college course  |
+| LookAtTarget.cs  | Self written  |
+| MoveBackwards.cs  | Self written  |
+| MoveForwards.cs  | Self written  |
+| MoveShipBackwards.cs  | Self written  |
+| MoveShipForwards.cs  | Self written  |
+| MoveTarget.cs  | Self written  |
+| NoiseWander.cs  | Modified from college course  |
+| ObstacleAvoidance.cs  | Modified from college course  |
+| OffsetPursue.cs  | Modified from college course  |
+| Seek.cs  | Modified from college course  |
+| Shoot.cs  | Self written  |
+| StateMachine.cs  | Modified from college course  |
+| SteeringBehaviour.cs  | Modified from college course  |
+| TriggerEnd.cs  | Self written  |
+| TriggerEnd2.cs  | Self written  |
+| TriggerEnd3.cs  | Self written  |
+| TriggerEnd4.cs  | Self written  |
+| TriggerEnd5.cs  | Self written  |
+| TriggerEnd6.cs  | Self written  |
+| TriggerEnd7.cs  | Self written  |
+| TriggerEnd8.cs  | Self written  |
+| TurretShooting.cs  | Self written  |
+| Boom.cs  | Self written  |
+
 ## Resources
 
 - Clips and videos: https://www.rollingstone.com/movies/movie-lists/50-best-sci-fi-movies-1970s-163518/message-from-space-1978-174323/
