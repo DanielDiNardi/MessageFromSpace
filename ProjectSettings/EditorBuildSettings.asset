@@ -17,4 +17,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/4-TurretCloseUp.unity
     guid: f01e0b7b7e6468340b27ab344f8bd377
+  - enabled: 1
+    path: Assets/Scenes/5-Battle.unity
+    guid: bb054037d4185cc45b44008463904505
+  - enabled: 1
+    path: Assets/Scenes/6-BomberDetach.unity
+    guid: 45fdb4a41a6103a43a26f626542a9cdc
+  - enabled: 1
+    path: Assets/Scenes/7-EnemyFalls.unity
+    guid: 43791486b78dfcf4da9b4fd174a7c315
+  - enabled: 1
+    path: Assets/Scenes/8-Victory.unity
+    guid: 9a6f2ce9ef9d1d74a9360fd37e6ca84f
   m_configObjects: {}
